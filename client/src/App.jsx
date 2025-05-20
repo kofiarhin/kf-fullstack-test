@@ -16,7 +16,7 @@ const App = () => {
   }, []);
   return (
     <div>
-      <h1 className="heading">Hello World</h1>
+      <h1 className="heading">This is the new update</h1>
     </div>
   );
 };
