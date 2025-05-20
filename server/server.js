@@ -11,4 +11,11 @@ app.get("/", (req, res) => {
   return res.json({ message: "hello world" });
 });
 
+app.get("/api/users", (req, res) => {
+  return res.json([
+    { name: "kofi arhin", email: "kofiarhin@gmail.com" },
+    { neme: "lebron james", email: "lebron@gmail.com" },
+  ]);
+});
+
 app.listen(port, () => console.log("server started"));
